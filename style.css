@@ -1,0 +1,130 @@
+#myName{
+
+    text-align: center;
+    align-content: center;
+    font-family: 'Josefin Slab', serif;    
+    font-size: 25px;
+    }
+
+
+#two{
+flex-wrap: wrap;
+
+
+}
+.Portfolio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size:;
+    text-align: center;
+    line-height: 0;
+}
+
+.subtitulo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    line-height: 0;
+}
+
+  /*!-- Portfolio Gallery Grid --*/
+
+  h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Papa{
+
+align-items: center;
+justify-content: center;
+
+}
+
+body {
+  margin: 0;
+}
+
+
+
+.image-grid{
+
+  display: grid;
+  grid-template-columns: 30% 30%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+
+.image-grid img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.Titulo{
+  text-align: center;
+}
+
+.descripsion{
+  text-align:center;
+}
+
+
+
+    /* Footer Styles */
+    
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  background-image: url("images/MenuStripe.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100px;
+}
+
+.footer a {
+  padding: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
+
+.About {
+  color: black;
+}
+
+.Home {
+  color: black;
+}
+
+.Contact {
+  color: Black;
+}
+
+.Porfolio{
+  color: Black;
+}
+
+.Blog{
+  color: Black;
+}
+
+
+  @media screen and (max-width: 600px) {
+  .image-grid {
+      grid-template-columns: 60%;
+
+    }
+.hero {
+  width: 100%;
+}
+
+  }

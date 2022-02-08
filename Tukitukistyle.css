@@ -1,0 +1,165 @@
+/* CAse Study style*/
+
+body{
+    background-image: url(Images3/backgroundGgreen.jpg) ;
+    background-repeat:repeat-y;
+  }
+  
+  
+  
+  #myName{
+  
+      text-align: center;
+      align-content: center;
+      font-family: 'Josefin Slab', serif;    
+      font-size: 25px;
+      }
+      
+
+      h2{
+        font-size: 40px;
+        text-align: center;
+      }
+        #two{
+          flex-wrap: wrap;}
+
+
+          .card {
+            background-color: rgba(240, 248, 255, 0);
+            border: none !important;}
+            
+
+.tamano{
+   width: 300px;
+   height: auto;
+   margin-left: 100px;
+}
+
+.modal-content{
+    width: auto;
+    height: 90vh;
+  
+   }
+  
+   .titulo{
+       text-align: center;
+   }
+
+   .center{
+       text-align: center;
+   }
+
+   .fotos{
+       width: 90%;
+       height: auto;
+   }
+  
+  .modal-dialog{
+    max-width: none;
+    margin: none;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+
+  .modal-body{
+      display: flex;
+      justify-content: center;
+  }
+
+
+  .smolli{
+      height: 500px;
+      width: auto;
+  }
+
+  .smollito{
+    height: 400px;
+    width: auto;
+  }
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(9, 165, 9);
+}
+
+.pointer {cursor: pointer;}
+
+
+/*botones*/
+
+.boton{
+  display: flex;  
+justify-content: center;  
+align-items: center;
+color: white;  
+
+}
+
+
+.rounded  {
+  background-image: url("images2/butonBack2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;}
+
+
+  
+ /* Footer Styles */
+    
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    background-image: url("images2/MenuStripe.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
+  }
+  
+  .About {
+    color: black;
+  }
+  
+  .Home {
+    color: black;
+  }
+  
+  .Contact {
+    color: Black;
+  }
+  
+  .Porfolio{
+    color: Black;
+  }
+  
+  .Blog{
+    color: Black;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+     .container{
+         flex-direction: column;
+      justify-content: center;  
+     }}

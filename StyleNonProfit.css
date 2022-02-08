@@ -1,0 +1,168 @@
+/* CAse Study style*/
+
+body{
+    background-image: url(Images3/bleBackground.jpg) ;
+    background-repeat:repeat-y;
+  }
+  
+  
+  
+  #myName{
+  
+      text-align: center;
+      align-content: center;
+      font-family: 'Josefin Slab', serif;    
+      font-size: 25px;
+      }
+      
+
+      h2{
+        font-size: 40px;
+        text-align: center;
+      }
+        #two{
+          flex-wrap: wrap;}
+
+
+/* card*/
+.transparente{
+  background-color: rgba(13, 34, 53, 0.075);
+}
+
+.verde{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* 2 part*/
+
+.titulito{
+    text-align: center;
+}
+
+
+/* 3part*/
+
+
+.azul{
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+.fotos{
+  width: 100%;
+  height: auto;
+}
+
+
+/* vs*/
+
+.ejemplo{
+ size: 20px;
+}
+
+
+.centru{
+text-align: center;
+}
+
+
+
+.smolito{
+  width: 30%;
+  height: auto;
+
+}
+
+.modal-content{
+  width: 100%;
+  height: auto;
+
+}
+
+.modal-dialog{
+  max-width: none;
+  margin: none;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+/*botones*/
+.center{
+  text-align: center;
+}
+
+.boton{
+  display: flex;  
+justify-content: center;  
+align-items: center;
+color: white;  
+
+}
+
+
+.rounded  {
+  background-image: url("images2/butonBack2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;}
+
+
+ /* Footer Styles */
+    
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    background-image: url("images2/MenuStripe.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
+  }
+  
+  .About {
+    color: black;
+  }
+  
+  .Home {
+    color: black;
+  }
+  
+  .Contact {
+    color: Black;
+  }
+  
+  .Porfolio{
+    color: Black;
+  }
+  
+  .Blog{
+    color: Black;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+     .container{
+         flex-direction: column;
+      justify-content: center;  
+     }}
